@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+}
+
+html header, body header {
+  background-image: url(../assets/img/background.png);
+  height: 900px;
+}
+
+html header nav, body header nav {
+  padding: 40px 365px 0 952px;
+  height: 58px;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+}
+
+html header nav a, body header nav a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+html header nav .active, body header nav .active {
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 39px;
+}
+/*# sourceMappingURL=style.css.map */
