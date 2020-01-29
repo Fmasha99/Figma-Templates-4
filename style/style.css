@@ -410,6 +410,67 @@ html main .all-services .purple-section hr, body main .all-services .purple-sect
   border: 1px solid #E0E0E0;
 }
 
+html main .all-projects, body main .all-projects {
+  background: #F6F6F8;
+  margin-top: 511px;
+  height: 892px;
+}
+
+html main .all-projects .header, body main .all-projects .header {
+  padding-top: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+}
+
+html main .all-projects .text, body main .all-projects .text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 50px;
+  color: #999999;
+}
+
+html main .all-projects .images-container, body main .all-projects .images-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 405px;
+  margin-top: 70px;
+}
+
+html main .all-projects .images-container .picture, body main .all-projects .images-container .picture {
+  width: 255px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+html main .all-projects .button, body main .all-projects .button {
+  width: 200px;
+  height: 45px;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  vertical-align: middle;
+  margin: 120px auto 130px 896px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 13px;
+  color: #FFFFFF;
+}
+
 html footer, body footer {
   background: #F6F6F8;
   font-family: Montserrat;
