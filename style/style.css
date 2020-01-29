@@ -471,6 +471,43 @@ html main .all-projects .button, body main .all-projects .button {
   color: #FFFFFF;
 }
 
+html main .video, body main .video {
+  height: 570px;
+  background-image: url("../assets/img/video-background.png");
+}
+
+html main .video .header, body main .video .header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  padding-top: 70px;
+  color: #FFFFFF;
+}
+
+html main .video .text, body main .video .text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+
+html main .video .video-container .background, body main .video .video-container .background {
+  margin-top: 70px;
+  margin-left: 475px;
+}
+
+html main .video .video-container .background .play-container, body main .video .video-container .background .play-container {
+  margin-top: 165px;
+  margin-left: 355px;
+}
+
 html footer, body footer {
   background: #F6F6F8;
   font-family: Montserrat;

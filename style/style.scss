@@ -477,6 +477,53 @@ html, body {
             }
         } //.all-projects
 
+        .video {
+            height: 570px;
+            background-image: url('../assets/img/video-background.png');
+
+            .header {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 53px;
+                text-align: center;
+
+                padding-top: 70px;
+                
+                color: #FFFFFF;
+            }
+
+            .text {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+
+                margin-top: 30px;
+                
+                color: #FFFFFF;
+            }
+
+            .video-container {
+
+                .background {
+                    margin-top: 70px;
+                    margin-left: 475px;
+
+                    .play-container {
+                        margin-top: 165px;
+                        margin-left: 355px;
+    
+                    }
+                }
+
+            }
+
+        } //.video
+
     } //main
 
     footer {
