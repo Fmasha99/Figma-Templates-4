@@ -204,6 +204,7 @@ html main .about-us .main-container, body main .about-us .main-container {
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #E0E0E0;
+  margin-top: 105px;
 }
 
 html main .about-us .main-container .text-container, body main .about-us .main-container .text-container {
@@ -291,6 +292,132 @@ html main .about-us .calendar-container .project-day .text, body main .about-us 
   font-weight: normal;
   font-size: 16px;
   line-height: 25px;
+  margin-bottom: 70px;
+  color: #999999;
+}
+
+html main .all-services .purple-section, body main .all-services .purple-section {
+  height: 490px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20.44%, #504DC2), color-stop(80.91%, #5F12D0)), #C4C4C4;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+
+html main .all-services .purple-section .text-container, body main .all-services .purple-section .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html main .all-services .purple-section .text-container .header, body main .all-services .purple-section .text-container .header {
+  width: 540px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+  margin-top: 100px;
+  margin-left: 405px;
+}
+
+html main .all-services .purple-section .text-container .button, body main .all-services .purple-section .text-container .button {
+  width: 200px;
+  height: 45px;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  vertical-align: middle;
+  margin: 120px auto 93px 370px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 13px;
+  color: #FFFFFF;
+}
+
+html main .all-services .purple-section .pictures-section, body main .all-services .purple-section .pictures-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 405px;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item, body main .all-services .purple-section .pictures-section .picures-section_item {
+  margin-right: 30px;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item .picture, body main .all-services .purple-section .pictures-section .picures-section_item .picture {
+  border-radius: 10px;
+  width: 350px;
+  height: 300px;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item .header, body main .all-services .purple-section .pictures-section .picures-section_item .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item .header .header-number, body main .all-services .purple-section .pictures-section .picures-section_item .header .header-number {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4985FF;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item .header .header-text, body main .all-services .purple-section .pictures-section .picures-section_item .header .header-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item .text, body main .all-services .purple-section .pictures-section .picures-section_item .text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  margin-top: 30px;
+}
+
+html main .all-services .purple-section .pictures-section .picures-section_item .link, body main .all-services .purple-section .pictures-section .picures-section_item .link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #4985FF;
+  margin-top: 30px;
+}
+
+html main .all-services .purple-section hr, body main .all-services .purple-section hr {
+  width: 1110px;
+  margin-top: 85px;
+  margin-bottom: 85px;
+  border: 1px solid #E0E0E0;
+}
+
+html footer, body footer {
+  background: #F6F6F8;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
   color: #999999;
 }
 /*# sourceMappingURL=style.css.map */
