@@ -12,7 +12,7 @@ html, body {
             padding: 40px 0 0 952px;
             height: 58px;
             list-style-type: none;
-            border-bottom: 1px solid rgba(161, 161, 161, 0.5);;
+            border-bottom: 1px solid rgba(161, 161, 161, 0.5);
             a {
                 font-family: Montserrat;
                 font-style: normal;
@@ -191,7 +191,7 @@ html, body {
                 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
                 border-radius: 30px;
                 vertical-align: middle;
-                margin: 50px auto 0 455px;
+                margin: 50px auto 150px 455px;
 
                 font-family: Montserrat;
                 font-style: normal;
@@ -204,6 +204,105 @@ html, body {
                 color: #FFFFFF;
             } //.service-section_button
         } //.services
+
+        .about-us {
+            margin-top: 105px;
+            background: #F6F6F8;
+
+            .main-container {
+                display: flex;
+                border-bottom: 1px solid #E0E0E0;
+                .text-container {
+                    margin: 152px 121px 143px 405px;
+                    .header {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 36px;
+                        line-height: 53px;
+                        
+                        color: #323232;
+                    } //.header
+
+                    .text {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 25px;
+                        margin-top: 40px;
+                        
+                        color: #999999;
+                    } //.text
+
+                    .link {
+                        cursor: pointer;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin-top: 30px;
+                        
+                        text-decoration-line: underline;
+                        
+                        color: #4985FF;
+                    } //.link
+
+                } //.text-container
+
+                .image {
+                    background-image: url("../assets/img/about-us\ picture.png");
+                    width: 500px;
+                    height: 400px;
+                    border-radius: 30px;
+
+                    margin-top: 100px;
+                } //.image
+
+            } //.main-container
+
+            .calendar-container {
+                display: flex;
+                margin-top: 70px;
+                margin-left: 500px;
+
+                .project-day {
+                    margin-right: 100px;
+                    .calendar {
+                        display: flex;
+                        .picture {
+                            background-repeat: no-repeat;
+                            width: 30px;
+                            height: 30px;
+                            margin-top: 10px;
+                            margin-right: 20px;
+                        }
+                        .count {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 36px;
+                            line-height: 53px;
+                            
+                            color: #000000;                        
+                        }
+                    }
+                    .text {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 25px;
+                        
+                        color: #999999;
+                    }
+                }
+
+            } //.calendar-container
+
+        } //.about-us
+
     } //main
 
     footer {
