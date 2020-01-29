@@ -9,7 +9,7 @@ html, body {
         background-image: url(../assets/img/background.png);
         height: 900px;
         nav {
-            padding: 40px 0 0 952px;
+            padding: 40px 0 0 48.54%;
             height: 58px;
             list-style-type: none;
             border-bottom: 1px solid rgba(161, 161, 161, 0.5);
@@ -69,7 +69,7 @@ html, body {
                 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
                 border-radius: 30px;
                 vertical-align: middle;
-                margin: 50px auto 0 860px;
+                margin: 50px auto 0 auto;
 
                 font-family: Montserrat;
                 font-style: normal;
@@ -88,7 +88,8 @@ html, body {
         .services {
             width: 1113px;
             height: 488px;
-            margin: 110px auto 105px 405px;
+            margin: 110px auto 105px auto;
+            text-align: center;
 
             .first-line {
                 height: 88px;
@@ -211,16 +212,19 @@ html, body {
 
             .main-container {
                 display: flex;
-                border-bottom: 1px solid #E0E0E0;
                 margin-top: 105px;
+                margin: 217px auto 143px 21.1%;
+                text-align: center;
+
                 .text-container {
-                    margin: 152px 121px 143px 405px;
+                    margin-right: 6.3%;
                     .header {
                         font-family: Montserrat;
                         font-style: normal;
                         font-weight: bold;
                         font-size: 36px;
                         line-height: 53px;
+                        margin-top: 29.9%;
                         
                         color: #323232;
                     } //.header
@@ -260,6 +264,8 @@ html, body {
 
                     margin-top: 100px;
                 } //.image
+
+                
 
             } //.main-container
 
@@ -409,7 +415,8 @@ html, body {
 
                 } //.pictures-section
 
-                hr {
+                
+                {
                     width: 1110px;
                     margin-top: 85px;
                     margin-bottom: 85px;
