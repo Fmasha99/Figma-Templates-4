@@ -1,5 +1,7 @@
 html, body {
   margin: 0;
+  font-family: 'Montserrat', regular;
+  font-family: 'Montserrat-black', regular;
 }
 
 html header, body header {
@@ -8,7 +10,7 @@ html header, body header {
 }
 
 html header nav, body header nav {
-  padding: 40px 365px 0 952px;
+  padding: 40px 350px 0 952px;
   height: 58px;
   list-style-type: none;
   border-bottom: 1px solid rgba(161, 161, 161, 0.5);
@@ -28,5 +30,46 @@ html header nav a, body header nav a {
 html header nav .active, body header nav .active {
   border-bottom: 2px solid #FFFFFF;
   padding-bottom: 39px;
+}
+
+html header .main-section .first-line, body header .main-section .first-line {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 220px;
+}
+
+html header .main-section .second-line, body header .main-section .second-line {
+  font-family: Montserrat-black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+html header .main-section .main-section_button, body header .main-section .main-section_button {
+  width: 200px;
+  height: 45px;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  vertical-align: middle;
+  margin: 50px auto 0 860px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 13px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
