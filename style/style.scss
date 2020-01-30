@@ -8,6 +8,7 @@ html, body {
     header {
         background-image: url('../assets/img/background.png');
         height: 900px;
+        background-size: cover;
         nav {
             padding: 40px 0 0 48.54%;
             height: 58px;
@@ -19,6 +20,7 @@ html, body {
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 20px;
+                padding-bottom: 39px;
 
                 color: #FFFFFF;
 
@@ -28,7 +30,7 @@ html, body {
                 &:hover {
                     color: rgba(214, 236, 14, 0.863);
                     border-bottom: 2px solid #FFFFFF;
-                    padding-bottom: 39px;
+
                 }
 
             } //a
@@ -42,6 +44,14 @@ html, body {
         } //nav
 
         .main-section {
+            display: flex;
+            flex-direction: column;
+            max-width: 1113px;
+            width: 100%;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+
             .first-line {
                 font-family: Montserrat;
                 font-style: normal;
@@ -68,16 +78,16 @@ html, body {
 
                 padding-top: 20px;
             } //.second-line
-           
-            .main-section_button {
-
+            
+            button {
                 width: 200px;
-                height: 45px;
-                background: #4985FF;
+ 
+                background-color: #4985FF;
                 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
                 border-radius: 30px;
-                vertical-align: middle;
-                margin: 50px auto 0 auto;
+                margin-top: 55px;
+                margin-left: auto;
+                margin-right: auto;
 
                 font-family: Montserrat;
                 font-style: normal;
@@ -85,23 +95,24 @@ html, body {
                 font-size: 16px;
                 line-height: 44px;
                 text-align: center;
+                border: none;
 
                 color: #FFFFFF;
 
-                &:hover {
-                    cursor: pointer;
-                    background: #504DC2;
-                }
-            } //.main-section_button
+            }
         } // .main-section
     } //header
 
     main {
         .services {
-            width: 1113px;
-            height: 390px;
-            margin: 110px auto 105px auto;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1113px;
+            width: 100%;
+            margin-top: 110px;
 
             .first-line {
                 height: 88px;
@@ -131,10 +142,12 @@ html, body {
 
             .service-section {
                 display: flex;
+                justify-content: center;
+
                 .service-section_item {
-                    width: 353px;
-                    margin-right: 27px;
+                    width: 33%;
                     display: flex;
+
                     .images {
                         position: relative;
                         .grey-ellipse {
@@ -198,21 +211,21 @@ html, body {
                     } //.text-section
                 } //.service-section_item
             } //.service-section
-            .services-section_button {
+
+            button {
                 width: 200px;
-                height: 45px;
                 background: #4985FF;
-                box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+                border: none;
                 border-radius: 30px;
-                vertical-align: middle;
-                margin: 55px auto 105px 455px;
+                margin-top: 55px;
+                margin-left: auto;
+                margin-right: auto;
 
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 44px;
-                text-align: center;
 
                 color: #FFFFFF;
 
@@ -220,18 +233,19 @@ html, body {
                     cursor: pointer;
                     background: #504DC2;
                 }
-            } //.service-section_button
+            } //button
+
         } //.services
 
         .about-us {
-            margin-top: 105px;
             background: #F6F6F8;
+            margin-top: 105px;
 
             .main-container {
                 display: flex;
-                margin-top: 105px;
-                margin: 217px auto 90px 21.1%;
-                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
 
                 .text-container {
                     margin-right: 6.3%;
@@ -298,16 +312,18 @@ html, body {
                 width:57.81%;
                 border: 1px solid #E0E0E0;
                 margin-bottom: 70px;
+                margin-top: 90px;
             }
 
             .calendar-container {
                 display: flex;
-                margin-top: 70px;
-                margin-left: 25.9%;
+                max-width: 1113px;
+                width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                justify-content: space-evenly;
                 
-
                 .project-day {
-                    margin-right: 7%;
                     
                     .calendar {
                         display: flex;
@@ -542,6 +558,8 @@ html, body {
         .video {
             height: 570px;
             background-image: url('../assets/img/video-background.png');
+            background-repeat: no-repeat;
+            background-size: cover;
 
             .header {
                 font-family: Montserrat;

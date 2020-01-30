@@ -6,6 +6,7 @@ html, body {
 html header, body header {
   background-image: url("../assets/img/background.png");
   height: 900px;
+  background-size: cover;
 }
 
 html header nav, body header nav {
@@ -21,6 +22,7 @@ html header nav a, body header nav a {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  padding-bottom: 39px;
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 40px;
@@ -29,12 +31,28 @@ html header nav a, body header nav a {
 html header nav a:hover, body header nav a:hover {
   color: rgba(214, 236, 14, 0.863);
   border-bottom: 2px solid #FFFFFF;
-  padding-bottom: 39px;
 }
 
 html header nav .active, body header nav .active {
   border-bottom: 2px solid #FFFFFF;
   padding-bottom: 39px;
+}
+
+html header .main-section, body header .main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1113px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 html header .main-section .first-line, body header .main-section .first-line {
@@ -59,34 +77,41 @@ html header .main-section .second-line, body header .main-section .second-line {
   padding-top: 20px;
 }
 
-html header .main-section .main-section_button, body header .main-section .main-section_button {
+html header .main-section button, body header .main-section button {
   width: 200px;
-  height: 45px;
-  background: #4985FF;
+  background-color: #4985FF;
   -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
-  vertical-align: middle;
-  margin: 50px auto 0 auto;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 44px;
   text-align: center;
+  border: none;
   color: #FFFFFF;
 }
 
-html header .main-section .main-section_button:hover, body header .main-section .main-section_button:hover {
-  cursor: pointer;
-  background: #504DC2;
-}
-
 html main .services, body main .services {
-  width: 1113px;
-  height: 390px;
-  margin: 110px auto 105px auto;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1113px;
+  width: 100%;
+  margin-top: 110px;
 }
 
 html main .services .first-line, body main .services .first-line {
@@ -115,11 +140,13 @@ html main .services .service-section, body main .services .service-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 html main .services .service-section .service-section_item, body main .services .service-section .service-section_item {
-  width: 353px;
-  margin-right: 27px;
+  width: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,41 +214,41 @@ html main .services .service-section .service-section_item .text-section .text, 
   color: #999999;
 }
 
-html main .services .services-section_button, body main .services .services-section_button {
+html main .services button, body main .services button {
   width: 200px;
-  height: 45px;
   background: #4985FF;
-  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border: none;
   border-radius: 30px;
-  vertical-align: middle;
-  margin: 55px auto 105px 455px;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 44px;
-  text-align: center;
   color: #FFFFFF;
 }
 
-html main .services .services-section_button:hover, body main .services .services-section_button:hover {
+html main .services button:hover, body main .services button:hover {
   cursor: pointer;
   background: #504DC2;
 }
 
 html main .about-us, body main .about-us {
-  margin-top: 105px;
   background: #F6F6F8;
+  margin-top: 105px;
 }
 
 html main .about-us .main-container, body main .about-us .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 105px;
-  margin: 217px auto 90px 21.1%;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 html main .about-us .main-container .text-container, body main .about-us .main-container .text-container {
@@ -279,18 +306,20 @@ html main .about-us hr, body main .about-us hr {
   width: 57.81%;
   border: 1px solid #E0E0E0;
   margin-bottom: 70px;
+  margin-top: 90px;
 }
 
 html main .about-us .calendar-container, body main .about-us .calendar-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 70px;
-  margin-left: 25.9%;
-}
-
-html main .about-us .calendar-container .project-day, body main .about-us .calendar-container .project-day {
-  margin-right: 7%;
+  max-width: 1113px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 html main .about-us .calendar-container .project-day .calendar, body main .about-us .calendar-container .project-day .calendar {
@@ -525,6 +554,8 @@ html main .all-projects .button:hover, body main .all-projects .button:hover {
 html main .video, body main .video {
   height: 570px;
   background-image: url("../assets/img/video-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html main .video .header, body main .video .header {
