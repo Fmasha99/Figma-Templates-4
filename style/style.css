@@ -254,12 +254,6 @@ html main .about-us .main-container .image, body main .about-us .main-container 
   margin-top: 100px;
 }
 
-html main .about-us .main-container hr, body main .about-us .main-container hr {
-  width: 57.8px;
-  margin-top: 90px;
-  border: 1px solid #E0E0E0;
-}
-
 html main .about-us .calendar-container, body main .about-us .calendar-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,7 +410,6 @@ html main .all-services .purple-section hr, body main .all-services .purple-sect
   width: 1110px;
   margin-top: 85px;
   margin-bottom: 85px;
-  border: 1px solid #E0E0E0;
 }
 
 html main .all-projects, body main .all-projects {
@@ -507,14 +500,122 @@ html main .video .text, body main .video .text {
   color: #FFFFFF;
 }
 
-html main .video .video-container .background, body main .video .video-container .background {
-  margin-top: 70px;
-  margin-left: 475px;
+html main .video .video-container, body main .video .video-container {
+  position: relative;
 }
 
-html main .video .video-container .background .play-container, body main .video .video-container .background .play-container {
-  margin-top: 165px;
-  margin-left: 355px;
+html main .video .video-container .background, body main .video .video-container .background {
+  position: absolute;
+  width: 800px;
+  margin-top: 70px;
+  margin-left: 475px;
+  z-index: 2;
+}
+
+html main .video .video-container .play-container, body main .video .video-container .play-container {
+  position: absolute;
+  z-index: 3;
+}
+
+html main .video .video-container hr, body main .video .video-container hr {
+  position: absolute;
+  width: 57.8%;
+  border: 1px solid #E0E0E0;
+  margin-top: 595px;
+  margin-left: 21.1%;
+  text-align: center;
+  z-index: 1;
+}
+
+html main .subcribe, body main .subcribe {
+  margin-top: 285px;
+  width: 38%;
+  margin-left: 31%;
+  text-align: center;
+}
+
+html main .subcribe .header, body main .subcribe .header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+html main .subcribe .text, body main .subcribe .text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  width: 100%;
+  color: #999999;
+  margin-top: 20px;
+}
+
+html main .subcribe .form, body main .subcribe .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 67%;
+  margin-left: 16.5%;
+  margin-top: 30px;
+}
+
+html main .subcribe .form .input, body main .subcribe .form .input {
+  position: absolute;
+  z-index: 1;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  height: 45px;
+  width: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  padding-top: 2%;
+  padding-right: 70%;
+  color: #999999;
+}
+
+html main .subcribe .form .submit, body main .subcribe .form .submit {
+  position: absolute;
+  z-index: 2;
+  height: 45px;
+  width: 38.9%;
+  margin-left: 61%;
+  background: #4985FF;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+html main .subcribe .subtitle, body main .subcribe .subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+  margin-top: 78px;
+  margin-bottom: 85px;
 }
 
 html footer, body footer {
