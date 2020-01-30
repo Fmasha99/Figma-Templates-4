@@ -3,10 +3,10 @@
 html, body {
     margin: 0;
 
-    font-family: 'Montserrat', regular;
+    font-family: 'Montserrat', sans-serif;
 
     header {
-        background-image: url(../assets/img/background.png);
+        background-image: url('../assets/img/background.png');
         height: 900px;
         nav {
             padding: 40px 0 0 48.54%;
@@ -24,8 +24,16 @@ html, body {
 
                 text-decoration: none;
                 margin-right: 40px;
+                
+                &:hover {
+                    color: rgba(214, 236, 14, 0.863);
+                    border-bottom: 2px solid #FFFFFF;
+                    padding-bottom: 39px;
+                }
 
             } //a
+
+            
                 
             .active {
                 border-bottom: 2px solid #FFFFFF;
@@ -75,11 +83,15 @@ html, body {
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
-                line-height: 20px;
+                line-height: 44px;
                 text-align: center;
-                padding-top: 13px;
 
                 color: #FFFFFF;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #504DC2;
+                }
             } //.main-section_button
         } // .main-section
     } //header
@@ -87,7 +99,7 @@ html, body {
     main {
         .services {
             width: 1113px;
-            height: 488px;
+            height: 390px;
             margin: 110px auto 105px auto;
             text-align: center;
 
@@ -193,17 +205,21 @@ html, body {
                 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
                 border-radius: 30px;
                 vertical-align: middle;
-                margin: 50px auto 150px 455px;
+                margin: 55px auto 105px 455px;
 
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
-                line-height: 20px;
+                line-height: 44px;
                 text-align: center;
-                padding-top: 13px;
 
                 color: #FFFFFF;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #504DC2;
+                }
             } //.service-section_button
         } //.services
 
@@ -214,7 +230,7 @@ html, body {
             .main-container {
                 display: flex;
                 margin-top: 105px;
-                margin: 217px auto 143px 21.1%;
+                margin: 217px auto 90px 21.1%;
                 text-align: center;
 
                 .text-container {
@@ -254,7 +270,14 @@ html, body {
                         text-decoration-line: underline;
                         
                         color: #4985FF;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: #504DC2;
+                        }
                     } //.link
+                    
+                   
 
                 } //.text-container
 
@@ -270,6 +293,12 @@ html, body {
                 
 
             } //.main-container
+
+            hr {
+                width:57.81%;
+                border: 1px solid #E0E0E0;
+                margin-bottom: 70px;
+            }
 
             .calendar-container {
                 display: flex;
@@ -354,11 +383,15 @@ html, body {
                         font-style: normal;
                         font-weight: 500;
                         font-size: 16px;
-                        line-height: 20px;
+                        line-height: 44px;
                         text-align: center;
-                        padding-top: 13px;
         
                         color: #FFFFFF;
+
+                        &:hover {
+                            cursor: pointer;
+                            background: #504DC2;
+                        }
                     }
                 }//.text-container
 
@@ -422,6 +455,11 @@ html, body {
                             color: #4985FF;
 
                             margin-top: 30px;
+
+                            &:hover {
+                                cursor: pointer;
+                                color: #504DC2;
+                            }
                         }
                     }
 
@@ -429,7 +467,8 @@ html, body {
 
                 
                 hr {
-                    width: 1110px;
+                    width: 57.8%;
+                    border: 1px solid #E0E0E0;
                     margin-top: 85px;
                     margin-bottom: 85px;
                 }
@@ -439,7 +478,7 @@ html, body {
         .all-projects {
             background: #F6F6F8;
             margin-top: 511px;
-            height: 892px;
+            height: 806px;
 
             .header {
                 padding-top: 100px;
@@ -482,17 +521,21 @@ html, body {
                 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
                 border-radius: 30px;
                 vertical-align: middle;
-                margin: 120px auto 130px 44.79%;
+                margin: 50px auto 130px 44.79%;
 
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
-                line-height: 20px;
+                line-height: 44px;
                 text-align: center;
-                padding-top: 13px;
 
                 color: #FFFFFF;
+
+                &:hover {
+                    cursor: pointer;
+                    background: #504DC2;
+                }
             }
         } //.all-projects
 
@@ -631,9 +674,14 @@ html, body {
                     font-style: normal;
                     font-weight: 500;
                     font-size: 16px;
-                    line-height: 20px;
+                    line-height: 44px;
 
                     color: #FFFFFF;
+
+                    &:hover {
+                        cursor: pointer;
+                        background: #504DC2;
+                    }
 
                 } //.submit
             } //.form
@@ -748,6 +796,10 @@ html, body {
                             margin-bottom: 30px;
 
                             color: #999999;
+                            &:hover {
+                                cursor: pointer;
+                                color: black;
+                            }
                         }
                     }
                 }
@@ -782,6 +834,10 @@ html, body {
                             margin-bottom: 30px;
 
                             color: #999999;
+                            &:hover {
+                                cursor: pointer;
+                                color: black;
+                            }
                         }
                     }
                 }  
@@ -816,6 +872,10 @@ html, body {
                             margin-bottom: 30px;
 
                             color: #999999;
+                            &:hover {
+                                cursor: pointer;
+                                color: black;
+                            }
                         }
                     }
                 }

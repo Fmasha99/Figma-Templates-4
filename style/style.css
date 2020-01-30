@@ -1,10 +1,10 @@
 html, body {
   margin: 0;
-  font-family: 'Montserrat', regular;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html header, body header {
-  background-image: url(../assets/img/background.png);
+  background-image: url("../assets/img/background.png");
   height: 900px;
 }
 
@@ -24,6 +24,12 @@ html header nav a, body header nav a {
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 40px;
+}
+
+html header nav a:hover, body header nav a:hover {
+  color: rgba(214, 236, 14, 0.863);
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 39px;
 }
 
 html header nav .active, body header nav .active {
@@ -66,15 +72,19 @@ html header .main-section .main-section_button, body header .main-section .main-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 44px;
   text-align: center;
-  padding-top: 13px;
   color: #FFFFFF;
+}
+
+html header .main-section .main-section_button:hover, body header .main-section .main-section_button:hover {
+  cursor: pointer;
+  background: #504DC2;
 }
 
 html main .services, body main .services {
   width: 1113px;
-  height: 488px;
+  height: 390px;
   margin: 110px auto 105px auto;
   text-align: center;
 }
@@ -185,15 +195,19 @@ html main .services .services-section_button, body main .services .services-sect
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   vertical-align: middle;
-  margin: 50px auto 150px 455px;
+  margin: 55px auto 105px 455px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 44px;
   text-align: center;
-  padding-top: 13px;
   color: #FFFFFF;
+}
+
+html main .services .services-section_button:hover, body main .services .services-section_button:hover {
+  cursor: pointer;
+  background: #504DC2;
 }
 
 html main .about-us, body main .about-us {
@@ -206,7 +220,7 @@ html main .about-us .main-container, body main .about-us .main-container {
   display: -ms-flexbox;
   display: flex;
   margin-top: 105px;
-  margin: 217px auto 143px 21.1%;
+  margin: 217px auto 90px 21.1%;
   text-align: center;
 }
 
@@ -248,12 +262,23 @@ html main .about-us .main-container .text-container .link, body main .about-us .
   color: #4985FF;
 }
 
+html main .about-us .main-container .text-container .link:hover, body main .about-us .main-container .text-container .link:hover {
+  cursor: pointer;
+  color: #504DC2;
+}
+
 html main .about-us .main-container .image, body main .about-us .main-container .image {
   background-image: url("../assets/img/about-us picture.png");
   width: 500px;
   height: 400px;
   border-radius: 30px;
   margin-top: 100px;
+}
+
+html main .about-us hr, body main .about-us hr {
+  width: 57.81%;
+  border: 1px solid #E0E0E0;
+  margin-bottom: 70px;
 }
 
 html main .about-us .calendar-container, body main .about-us .calendar-container {
@@ -343,10 +368,14 @@ html main .all-services .purple-section .text-container .button, body main .all-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 44px;
   text-align: center;
-  padding-top: 13px;
   color: #FFFFFF;
+}
+
+html main .all-services .purple-section .text-container .button:hover, body main .all-services .purple-section .text-container .button:hover {
+  cursor: pointer;
+  background: #504DC2;
 }
 
 html main .all-services .purple-section .pictures-section, body main .all-services .purple-section .pictures-section {
@@ -415,8 +444,14 @@ html main .all-services .purple-section .pictures-section .picures-section_item 
   margin-top: 30px;
 }
 
+html main .all-services .purple-section .pictures-section .picures-section_item .link:hover, body main .all-services .purple-section .pictures-section .picures-section_item .link:hover {
+  cursor: pointer;
+  color: #504DC2;
+}
+
 html main .all-services .purple-section hr, body main .all-services .purple-section hr {
-  width: 1110px;
+  width: 57.8%;
+  border: 1px solid #E0E0E0;
   margin-top: 85px;
   margin-bottom: 85px;
 }
@@ -424,7 +459,7 @@ html main .all-services .purple-section hr, body main .all-services .purple-sect
 html main .all-projects, body main .all-projects {
   background: #F6F6F8;
   margin-top: 511px;
-  height: 892px;
+  height: 806px;
 }
 
 html main .all-projects .header, body main .all-projects .header {
@@ -472,15 +507,19 @@ html main .all-projects .button, body main .all-projects .button {
           box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   vertical-align: middle;
-  margin: 120px auto 130px 44.79%;
+  margin: 50px auto 130px 44.79%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 44px;
   text-align: center;
-  padding-top: 13px;
   color: #FFFFFF;
+}
+
+html main .all-projects .button:hover, body main .all-projects .button:hover {
+  cursor: pointer;
+  background: #504DC2;
 }
 
 html main .video, body main .video {
@@ -611,8 +650,13 @@ html main .subcribe .form .submit, body main .subcribe .form .submit {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 44px;
   color: #FFFFFF;
+}
+
+html main .subcribe .form .submit:hover, body main .subcribe .form .submit:hover {
+  cursor: pointer;
+  background: #504DC2;
 }
 
 html main .subcribe .subtitle, body main .subcribe .subtitle {
@@ -721,6 +765,11 @@ html footer .information-container .links .list ul li, body footer .information-
   color: #999999;
 }
 
+html footer .information-container .links .list ul li:hover, body footer .information-container .links .list ul li:hover {
+  cursor: pointer;
+  color: black;
+}
+
 html footer .information-container .projects, body footer .information-container .projects {
   width: 16%;
   margin-right: 3.6%;
@@ -753,6 +802,11 @@ html footer .information-container .projects .list ul li, body footer .informati
   color: #999999;
 }
 
+html footer .information-container .projects .list ul li:hover, body footer .information-container .projects .list ul li:hover {
+  cursor: pointer;
+  color: black;
+}
+
 html footer .information-container .networks, body footer .information-container .networks {
   width: 16%;
   text-align: left;
@@ -782,6 +836,11 @@ html footer .information-container .networks .list ul li, body footer .informati
   line-height: 22px;
   margin-bottom: 30px;
   color: #999999;
+}
+
+html footer .information-container .networks .list ul li:hover, body footer .information-container .networks .list ul li:hover {
+  cursor: pointer;
+  color: black;
 }
 
 html footer .footer-container hr, body footer .footer-container hr {
