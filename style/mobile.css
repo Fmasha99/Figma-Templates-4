@@ -958,4 +958,19 @@ html footer .footer-container hr, body footer .footer-container hr {
 html footer .footer-container .text, body footer .footer-container .text {
   padding-bottom: 30px;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media (max-width: 768px) {
+  html header nav, body header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html header hr, body header hr {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

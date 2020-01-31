@@ -1,0 +1,18 @@
+@import "style.scss";
+
+@media(max-width: 768px) {
+
+    html, body {
+        header {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+            hr {
+                display: none;
+            }
+        }
+    }
+
+
+}
