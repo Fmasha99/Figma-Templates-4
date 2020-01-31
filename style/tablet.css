@@ -972,5 +972,8 @@ html footer .footer-container .text, body footer .footer-container .text {
   html header hr, body header hr {
     display: none;
   }
+  html header .main-section .first-line, body header .main-section .first-line {
+    padding-top: 100px;
+  }
 }
 /*# sourceMappingURL=mobile.css.map */
