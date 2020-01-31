@@ -3,6 +3,7 @@
 @media(max-width: 768px) {
 
     html, body {
+
         header {
             nav {
                 display: flex;
@@ -17,7 +18,22 @@
                 }
 
             }
-        }
+        } //header
+
+        main {
+            .services {
+                .first-line {
+
+                }
+                .second-line {
+
+                }
+                .service-section {
+                    
+                }
+            }
+
+        } //main
     }
 
 
