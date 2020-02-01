@@ -146,6 +146,8 @@ html main .services .second-line, body main .services .second-line {
   font-size: 16px;
   line-height: 25px;
   text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
   color: #999999;
   margin-top: 50px;
 }

@@ -146,6 +146,8 @@ html main .services .second-line, body main .services .second-line {
   font-size: 16px;
   line-height: 25px;
   text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
   color: #999999;
   margin-top: 50px;
 }
@@ -959,7 +961,7 @@ html footer .footer-container .text, body footer .footer-container .text {
   padding-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   html header nav, body header nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -974,6 +976,164 @@ html footer .footer-container .text, body footer .footer-container .text {
   }
   html header .main-section .first-line, body header .main-section .first-line {
     padding-top: 100px;
+  }
+  html main .services, body main .services {
+    max-width: 730px;
+    width: 100%;
+  }
+  html main .services .service-section, body main .services .service-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 730px;
+    width: 100%;
+  }
+  html main .services .service-section .service-section_item, body main .services .service-section .service-section_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  html main .services .service-section .service-section_item .images, body main .services .service-section .service-section_item .images {
+    max-width: 40px;
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+    padding: 6%;
+  }
+  html main .about-us .main-container, body main .about-us .main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 504px;
+    width: 100%;
+  }
+  html main .about-us .main-container .image, body main .about-us .main-container .image {
+    max-width: 415px;
+  }
+  html main .about-us .calendar-container, body main .about-us .calendar-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 630px;
+    width: 100%;
+  }
+  html main .about-us .calendar-container .project-day, body main .about-us .calendar-container .project-day {
+    width: 30%;
+  }
+  html main .all-services, body main .all-services {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(82%, #ffffff), color-stop(82%, #5F12D0));
+    background: linear-gradient(to top, #ffffff 82%, #5F12D0 82%);
+  }
+  html main .all-services .text-container, body main .all-services .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 540px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  html main .all-services .text-container .header, body main .all-services .text-container .header {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  html main .all-services .text-container button, body main .all-services .text-container button {
+    margin: auto;
+  }
+  html main .all-services .pictures-section, body main .all-services .pictures-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 7%;
+  }
+  html main .all-services .pictures-section .picures-section_item, body main .all-services .pictures-section .picures-section_item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+  }
+  html main .all-services hr, body main .all-services hr {
+    display: none;
+  }
+  html main .all-projects p, body main .all-projects p {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  html main .all-projects .images-container, body main .all-projects .images-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  html main .all-projects .images-container .picture, body main .all-projects .images-container .picture {
+    margin-bottom: 5%;
+  }
+  html footer .information-container, body footer .information-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html footer .information-container .contacts, body footer .information-container .contacts {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  html footer .information-container .links, body footer .information-container .links {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  html footer .information-container .projects, body footer .information-container .projects {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  html footer .information-container .networks, body footer .information-container .networks {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
   }
 }
 /*# sourceMappingURL=tablet.css.map */
