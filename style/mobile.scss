@@ -1,0 +1,101 @@
+// @import "style.scss";
+
+@media(max-width: 426px) {
+
+    html, body {
+
+        header {
+            height: 700px;
+
+            .main-section {
+                .second-line {
+                    font-size: 35px;
+                    line-height: 45px;
+                }
+            }
+            
+        } //header
+
+        main {
+
+            .services {
+                margin-top: 45px;
+
+                .first-line {
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+            }
+
+            .about-us {
+                .main-container {
+                    .text-container {
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 300px;
+                    }
+                    .image {
+                        max-width: 310px;
+                        max-height: 310px;
+                    }
+                }
+
+                .calendar-container {
+                    .project-day {
+                        width: 30%;
+
+                        .calendar {
+                            max-width: 40px;
+                            width: 100%;
+
+                            .picture {
+                                max-width: 30px;
+                                width: 100%;
+                                margin-top: 3%;
+                                margin-right: 3%;
+                            }
+                            .count {
+                                font-size: 20px;
+                                line-height: 33px;
+                            }
+                        }
+                        
+                        .text {
+                            font-size: 12px;
+                            line-height: 12px;
+                        }
+                    }
+                }
+            } //about-us
+
+            .all-services {
+                background: linear-gradient(to top, #ffffff 85%, #5F12D0 85%);
+
+                .text-container {
+                    .header {
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                }
+            } //all-services
+
+            .video {
+                .video-container {
+                    .play-container {
+                        max-width: 195px;
+
+                        img {
+                            max-width: 35px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -49,6 +49,10 @@ html, body {
             } //.active
         } //nav
         
+        .hamburger-menu {
+            display: none;
+        }
+        
         hr {
             border: 1px solid rgba(161, 161, 161, 0.5);
             width: 100%;

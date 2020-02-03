@@ -1,0 +1,65 @@
+@media (max-width: 426px) {
+  html header, body header {
+    height: 700px;
+  }
+  html header .main-section .second-line, body header .main-section .second-line {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  html main .services, body main .services {
+    margin-top: 45px;
+  }
+  html main .services .first-line, body main .services .first-line {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  html main .about-us .main-container .text-container, body main .about-us .main-container .text-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+  }
+  html main .about-us .main-container .image, body main .about-us .main-container .image {
+    max-width: 310px;
+    max-height: 310px;
+  }
+  html main .about-us .calendar-container .project-day, body main .about-us .calendar-container .project-day {
+    width: 30%;
+  }
+  html main .about-us .calendar-container .project-day .calendar, body main .about-us .calendar-container .project-day .calendar {
+    max-width: 40px;
+    width: 100%;
+  }
+  html main .about-us .calendar-container .project-day .calendar .picture, body main .about-us .calendar-container .project-day .calendar .picture {
+    max-width: 30px;
+    width: 100%;
+    margin-top: 3%;
+    margin-right: 3%;
+  }
+  html main .about-us .calendar-container .project-day .calendar .count, body main .about-us .calendar-container .project-day .calendar .count {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  html main .about-us .calendar-container .project-day .text, body main .about-us .calendar-container .project-day .text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  html main .all-services, body main .all-services {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(85%, #ffffff), color-stop(85%, #5F12D0));
+    background: linear-gradient(to top, #ffffff 85%, #5F12D0 85%);
+  }
+  html main .all-services .text-container .header, body main .all-services .text-container .header {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  html main .video .video-container .play-container, body main .video .video-container .play-container {
+    max-width: 195px;
+  }
+  html main .video .video-container .play-container img, body main .video .video-container .play-container img {
+    max-width: 35px;
+  }
+  html main .video .video-container .play-container p, body main .video .video-container .play-container p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

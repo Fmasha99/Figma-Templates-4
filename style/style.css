@@ -47,6 +47,10 @@ html header nav .active, body header nav .active {
   padding-bottom: 39px;
 }
 
+html header .hamburger-menu, body header .hamburger-menu {
+  display: none;
+}
+
 html header hr, body header hr {
   border: 1px solid rgba(161, 161, 161, 0.5);
   width: 100%;
